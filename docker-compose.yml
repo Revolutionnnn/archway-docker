@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  node-container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node-container
+    volumes:
+      - .:/app
+      # Depend i used windonw if u used others system u need to change
+      - //var/run/docker.sock:/var/run/docker.sock
