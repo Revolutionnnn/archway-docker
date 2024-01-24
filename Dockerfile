@@ -10,8 +10,7 @@ ENV PATH="/root/.cargo/bin:${PATH}"
 RUN cargo install cargo-generate
 RUN cargo install cargo-run-script
 
-# Instalar Docker dentro del contenedor SIN PROBAR
+# Instalar Docker dentro del contenedor
 RUN apt-get install -y docker.io
 
-# CMD para iniciar y mantener el contenedor en ejecución
 CMD ["sh", "-c", "tail -f /dev/null && export USER=prueba && git config --global --add safe.directory '*'"]
