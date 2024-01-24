@@ -1,4 +1,4 @@
-# archway-docker
+# Archway-docker
 
 ## Repositorio en desarrollo spanish
 La tarea principal consiste en automatizar el proceso de generación de plantillas en cualquier sistema mediante el uso de Docker, ya sea en entornos Linux o Windows. La idea es eliminar la necesidad de instalar dependencias directamente en la máquina local, optando en su lugar por que dichas dependencias se instalen en un contenedor. Este enfoque busca facilitar y simplificar la gestión, permitiendo la creación del contenedor con un solo comando. Al adoptar esta metodología, podemos reducir significativamente la cantidad de pasos requeridos, eliminando la necesidad de seguir múltiples pasos detallados en la documentación. Te invitamos a contribuir con tus ideas y mejoras en este proceso.
